@@ -4,7 +4,7 @@ Aplicacion personal de finanzas para reemplazar una hoja de Google Sheets de con
 
 ## Stack
 
-- **Backend**: Java 21, Spring Boot 3.x, Spring Data JPA, Spring Security (JWT), MySQL, Flyway
+- **Backend**: Java 21, Spring Boot 4.x, Spring Data JPA, Spring Security (JWT), MySQL, Flyway
 - **Frontend**: React + Vite, Material UI, Axios
 - **Arquitectura**: Hexagonal (Ports & Adapters) simplificada
 

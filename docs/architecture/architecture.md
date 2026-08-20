@@ -7,7 +7,7 @@ Este documento es el "mapa" vivo del proyecto. Cada decisión importante de dise
 | Componente          | Tecnologia                     |
 |---------------------|---------------------------------|
 | Backend             | Java 21                        |
-| Framework           | Spring Boot 3.x                |
+| Framework           | Spring Boot 4.x                |
 | API                 | REST                           |
 | Seguridad           | Spring Security + JWT (desde v0.2) |
 | Persistencia        | Spring Data JPA                |
