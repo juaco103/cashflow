@@ -1,0 +1,13 @@
+# Plantilla de configuracion de desarrollo local.
+# Copia este archivo como "application-dev.properties" (sin ".example") y completa tus propias credenciales.
+# application-dev.properties esta en .gitignore y nunca debe subirse al repositorio.
+
+spring.datasource.url=jdbc:mysql://localhost:3306/cashflow_dev
+spring.datasource.username=cashflow_app
+spring.datasource.password=CHANGE_ME
+
+spring.jpa.hibernate.ddl-auto=validate
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+spring.flyway.enabled=true

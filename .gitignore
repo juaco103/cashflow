@@ -12,6 +12,8 @@ frontend/.vite/
 # Variables de entorno / secretos
 .env
 *.env.local
+application-dev.properties
+application-prod.properties
 
 # IDE
 .idea/
@@ -27,3 +29,5 @@ Thumbs.db
 
 # Logs
 *.log
+
+docs/architecture/Proyecto Smart Finance.pdf
