@@ -17,11 +17,11 @@ Aplicacion personal de finanzas para reemplazar una hoja de Google Sheets de con
 
 ## Estado actual
 
-En construccion - v0.1 en progreso.
+v0.1 completo. En construccion - v0.2 en progreso.
 
 ## Roadmap
 
-- [ ] v0.1 - Registro de gastos e ingresos, dashboard (sin login)
+- [x] v0.1 - Registro de gastos e ingresos, dashboard (sin login)
 - [ ] v0.2 - Autenticacion
 - [ ] v0.3 - Multiusuario
 - [ ] v0.4 - Gastos recurrentes
