@@ -5,7 +5,6 @@ import com.cashflow.backend.domain.gasto.Gasto;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -43,10 +42,5 @@ public class GastoController {
         return gastoService.listarGastos().stream()
                 .map(GastoResponse::new)
                 .toList();
-    }    
-
-    @ExceptionHandler(IllegalArgumentException.class)
-    public ResponseEntity<String> manejarValidacionDeDominio(IllegalArgumentException ex) {
-        return ResponseEntity.badRequest().body(ex.getMessage());
-    }    
+    }
 }
